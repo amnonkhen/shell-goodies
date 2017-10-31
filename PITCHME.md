@@ -23,9 +23,9 @@ Debugging shell scripts
 
 use `/bin/sh -uvxe`
 
--u fail on undefined variable usage 
--v verbose
--x print variables
--e fail fast (= on first error)
+* `-u` fail on undefined variable usage 
+* `-v` verbose
+* `-x` print variables
+* `-e` fail fast (= on first error)
 
 Thank you
